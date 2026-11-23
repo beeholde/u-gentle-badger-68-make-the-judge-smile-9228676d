@@ -14,7 +14,7 @@ on someone else's cake), in fresh wording.
 import os
 from pathlib import Path
 
-MAX_CHARS = 200
+MAX_CHARS = 200  # gate: entry.txt must be 1-200 characters
 
 LINE = (
     "It isn't my birthday, but the baker sang anyway \u2014 "
